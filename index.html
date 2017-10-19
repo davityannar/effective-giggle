@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> CSS генератор</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	
+<div class="blok1">
+	<p> upper left corner :
+		<input type="range" id="rtl" value="0" min="0" max="100" oninput="fun1()"><!-- rtl = range top left -->
+		<input type="text" id="ttl" value="0">  <!-- ttl = text top left -->
+	</p>
+
+	<p>upper right corner :
+		<input type="range" id="rtr" value="0" min="0" max="100" oninput="fun1()"><!-- rtr = range top right -->
+		<input type="text" id="ttr" value="0"> <!-- ttl = text top right -->
+	</p>
+
+	<p>bottom right corner :
+		<input type="range" id="rbr" value="0" min="0" max="100" oninput="fun1()"><!-- rbr = range top right -->
+		<input type="text" id="tbr" value="0"><!-- tbr = text top right -->
+	</p>
+
+	<p>bottom left corner :
+		<input type="range" id="rbl" value="0" min="0" max="100" oninput="fun1()"><!-- rbl = range top right -->
+		<input type="text" id="tbl" value="0"><!-- tbl = text top right -->
+	</p>
+</div>
+<div id="block"></div>
+	
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
